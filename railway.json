@@ -1,0 +1,10 @@
+{
+    "crons": [
+      {
+        "name": "send_digest",
+        "schedule": "30 2 * * *",
+        "command": "python daily_digest.py"
+      }
+    ]
+  }
+  
